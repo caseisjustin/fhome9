@@ -80,11 +80,17 @@ body {
   background-color: #333;
 }
 
-.sec_container {
+.sec_container1 {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
   display: flex;
+}
+
+.sec_container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .hero-section {
