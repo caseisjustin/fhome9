@@ -529,3 +529,53 @@ footer {
         }
     }
 }
+
+
+// media
+
+@media (max-width: 768px) {
+    .hero-content h1 {
+      font-size: 36px;
+    }
+  
+    .info-box .percentage h1 {
+      font-size: 80px;
+    }
+  
+    .why-switch .features, .growth-plans .plans {
+      flex-direction: column;
+      text-align: center;
+  
+      .feature-box, .plan-box {
+        max-width: 100%;
+        margin-bottom: 30px;
+      }
+    }
+  
+    .cta-button {
+      padding: 10px 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero-content h1 {
+      font-size: 28px;
+    }
+  
+    .hero-content p, .info-content p {
+      font-size: 14px;
+    }
+  
+    .info-box .percentage h1 {
+      font-size: 60px;
+    }
+  
+    .why-switch .feature-box h3, .growth-plans .plan-box h3 {
+      font-size: 16px;
+    }
+  
+    .cta-button {
+      font-size: 14px;
+      padding: 8px 12px;
+    }
+  }

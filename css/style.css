@@ -408,3 +408,34 @@ footer .footer-container .footer-bottom img {
   height: 30px;
   margin-top: 10px;
 }
+
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 36px;
+  }
+  .info-box .percentage h1 {
+    font-size: 80px;
+  }
+  .why-switch .features {
+    flex-direction: column;
+    text-align: center;
+  }
+  .cta-button {
+    padding: 10px 15px;
+  }
+}
+@media (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 28px;
+  }
+  .hero-content p, .info-content p {
+    font-size: 14px;
+  }
+  .info-box .percentage h1 {
+    font-size: 60px;
+  }
+  .cta-button {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+}
